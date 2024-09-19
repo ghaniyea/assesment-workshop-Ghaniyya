@@ -1,0 +1,89 @@
+{
+  "components": [
+    {
+      "values": [
+        {
+          "label": "Keperluan Pribadi",
+          "value": "keperluan_pribadi"
+        },
+        {
+          "label": "Sakit",
+          "value": "sakit"
+        },
+        {
+          "label": "Lainnya",
+          "value": "lainnya"
+        }
+      ],
+      "label": "Jenis Izin",
+      "type": "select",
+      "layout": {
+        "row": "Row_17wf4wd",
+        "columns": null
+      },
+      "id": "Field_16o3q84",
+      "key": "select_sujznz"
+    },
+    {
+      "subtype": "date",
+      "dateLabel": "Tanggal Izin",
+      "label": "Date time",
+      "type": "datetime",
+      "layout": {
+        "row": "Row_1wd8xre",
+        "columns": null
+      },
+      "id": "Field_1by8iup",
+      "key": "datetime_n0ftvj"
+    },
+    {
+      "label": "Deskripsi",
+      "type": "textarea",
+      "layout": {
+        "row": "Row_1hxjkdt",
+        "columns": null
+      },
+      "id": "Field_0j11ocx",
+      "key": "textarea_b43d0t"
+    },
+    {
+      "values": [
+        {
+          "label": "Setuju",
+          "value": "setuju"
+        },
+        {
+          "label": "Tolak",
+          "value": "tolak"
+        }
+      ],
+      "label": "Apakah pengajuan izin disetujui?",
+      "type": "select",
+      "layout": {
+        "row": "Row_1a0rssl",
+        "columns": null
+      },
+      "id": "Field_1mxu5bn",
+      "key": "select_wsryos"
+    },
+    {
+      "label": "Catatan",
+      "type": "textarea",
+      "layout": {
+        "row": "Row_0jtnnzy",
+        "columns": null
+      },
+      "id": "Field_08e8g50",
+      "key": "textarea_2uvtco"
+    }
+  ],
+  "type": "default",
+  "id": "Form_1fzugv0",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.27.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.21.0",
+  "schemaVersion": 16
+}

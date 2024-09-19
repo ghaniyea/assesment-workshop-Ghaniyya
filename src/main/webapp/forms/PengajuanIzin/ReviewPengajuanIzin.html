@@ -1,0 +1,43 @@
+<form name="reviewIzinForm" id="reviewIzinForm">
+    <h3>Review Pengajuan Izin Mahasiswa</h3>
+
+    <!-- Jenis Izin (Readonly) -->
+    <div>
+        <label for="category">Jenis Izin</label>
+        <input type="text" id="category" cam-variable-name="category" readonly cam-variable-type="String">
+    </div>
+
+    <!-- Tanggal Izin (Readonly) -->
+    <div>
+        <label for="date">Tanggal Izin</label>
+        <input type="date" id="date" cam-variable-name="date" readonly cam-variable-type="String">
+    </div>
+
+    <!-- Deskripsi (Readonly) -->
+    <div>
+        <label for="description">Deskripsi</label>
+        <textarea id="description" cam-variable-name="description" readonly cam-variable-type="String"></textarea>
+    </div>
+
+    <!-- Bukti Pendukung (Readonly) -->
+    <div>
+        <label for="evidence">Bukti Pendukung</label>
+        <input type="file" id="evidence" readonly cam-variable-name="evidence" cam-variable-type="File">
+    </div>
+
+    <!-- Apakah Izin Disetujui? -->
+    <div>
+        <label for="isApproved">Apakah Izin Disetujui?</label>
+        <select id="isApproved" cam-variable-name="isApproved" cam-variable-type="String">
+            <option value="setuju">Setuju</option>
+            <option value="tolak">Tolak</option>
+        </select>
+    </div>
+
+    <!-- Catatan -->
+    <div>
+        <label for="remark">Catatan</label>
+        <textarea id="remark" cam-variable-name="remark" cam-variable-type="String"></textarea>
+    </div>
+
+</form>

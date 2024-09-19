@@ -1,0 +1,32 @@
+<form name="pengajuanIzinForm" id="pengajuanIzinForm">
+    <h3>Form Pengajuan Izin Mahasiswa</h3>
+
+    <!-- Jenis Izin -->
+    <div>
+        <label for="category">Jenis Izin</label>
+        <select id="category" cam-variable-name="category" cam-variable-type="String">
+            <option value="keperluan_pribadi">Keperluan Pribadi</option>
+            <option value="sakit">Sakit</option>
+            <option value="lainnya">Lainnya</option>
+        </select>
+    </div>
+
+    <!-- Tanggal Izin -->
+    <div>
+        <label for="date">Tanggal Izin</label>
+        <input type="date" id="date" cam-variable-name="date" cam-variable-type="String">
+    </div>
+
+    <!-- Deskripsi -->
+    <div>
+        <label for="description">Deskripsi</label>
+        <textarea id="description" cam-variable-name="description" cam-variable-type="String"></textarea>
+    </div>
+
+    <!-- Bukti Pendukung -->
+    <div>
+        <label for="evidence">Bukti Pendukung (Opsional)</label>
+        <input type="file" id="evidence" cam-variable-name="evidence" cam-variable-type="File">
+    </div>
+
+</form>
